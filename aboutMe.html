@@ -1,11 +1,16 @@
 <html>
-
-    <div class="topnav">
-        <a class="active" href="/index.html">Home</a>
-        <a href="aboutMe.html">About Me</a>
-        <a href="cv.html">My CV</a>
-        <a href="contact.html">Contact</a>
-    </div>  
+    <head>
+        <meta charset="utf-8" />
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      </head>
+      
+      <div id="nav-placeholder"></div>
+      
+      <script>
+      $(function(){
+        $("#nav-placeholder").load("navBar.html");
+      });
+      </script>
 
     <h1>
         about me
